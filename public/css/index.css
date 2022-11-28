@@ -16,6 +16,8 @@ a{
     height: 100%;
 }
 
+/* Header - Start */
+
 #header {
     display: flex;
     width: 1400px;
@@ -105,3 +107,52 @@ a{
     border-bottom: 2px solid #111;
     transition: all 0.3s ease;
 }
+
+/* Header - End */
+
+/* Home - Start*/
+
+#home {
+    width: 1400px;
+    height: 300px;
+    margin: 0 auto;
+    background: red;
+}
+
+/* Home - Start*/
+
+/* About - Start*/
+#about {
+    width: 1400px;
+    height: 300px;
+    margin: 0 auto;
+    background: blue;
+}
+/* About - End*/
+
+/* Education - Start */
+#education{
+    width: 1400px;
+    height: 300px;
+    margin: 0 auto;
+    background: green;
+}
+/* Education - End */
+
+/* Skill - Start */
+#skill {
+    width: 1400px;
+    height: 300px;
+    margin: 0 auto;
+    background: yellow;
+}
+/* Skill - End */
+
+/* Project - Start */
+#project{
+    width: 1400px;
+    height: 300px;
+    margin: 0 auto;
+    background: gray;
+}
+/* Project - End */
