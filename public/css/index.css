@@ -4,5 +4,63 @@
 }
 
 ul ,li {
-    text-decoration: none;
+    list-style: none;
 }
+
+#wrap{
+    width: 100%;
+    height: 100%;
+}
+
+#header {
+    display: flex;
+    width: 1400px;
+    height: 100px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+#header > h1 {
+    margin: 0 0 0 100px;
+    float: left;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 1.5em;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+#header > h1::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 55px;
+    background-color: #111;
+}
+
+#header > h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    height: 1px;
+    width: 95%;
+    max-width: 255px;
+    background-color: #333;
+}
+
+#header > #gnb{
+    display: inline-block;
+    margin: 0 0 0 500px;
+}
+
+#header > #gnb > li{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    font-size : 16px;
+    font-weight: bold;
+}
+
