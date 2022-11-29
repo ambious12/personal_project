@@ -216,19 +216,77 @@ html{
     width: 1400px;
     height: 720px;
     margin: 0 auto;
-    background: blue;
+    /* background: blue; */
 }
 
 #about_left{
+    position: relative;
     width: 600px;
     height: 720px;
-    background: silver;
+    /* background: silver; */
+}
+
+#about_left > img{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 450px;
+    height: 500px;
+    object-fit: contain;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
 }
 
 #about_right{
+    position: relative;
     width: 700px;
     height: 720px;
-    background: yellow;
+    /* background: yellow; */
+}
+
+
+#about_right > #about_info {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 450px;
+    height: 500px;
+}
+
+#about_right > #about_info > h3 {
+    text-align: left;
+    color: darkgray;
+    font-weight: 800;
+    font-size: 50px;
+    border-bottom: 1px solid #848484;
+    border-left: 7px solid #848484;
+    padding: 0 0 0 15px;
+    box-sizing: border-box;
+}
+
+#about_right > #about_info > .about_list {
+    display: inline-block;
+    font-size: 26px;
+    width: 170px;
+    margin-top: 50px;
+    font-weight: bold;
+
+}
+
+#about_right > #about_info > .about_content{
+    display: inline-block;
+    font-size: 26px;
+    width: 170px;
+    margin-top: 50px;
+    color: #111;
+}
+
+#about_right > #about_info > .about_content > a{
+    display: inline-block;
+    font-size: 26px;
+    width: 170px;
+    color: palegoldenrod;
 }
 
 /* About - End*/
