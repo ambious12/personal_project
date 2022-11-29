@@ -112,6 +112,10 @@ a{
     transition: all 0.3s ease;
 }
 
+.navbar_menu{
+    scroll-behavior: smooth;
+}
+
 /* Header - End */
 
 /* Home - Start*/
