@@ -62,17 +62,17 @@ a{
 }
 
 #header > #gnb{
-    display: inline-block;
+    display: flex;
     cursor: pointer;
 }
 
 #header > #gnb > li{
-    display: inline-block;
+    display: flex;
     width: 100px;
-    text-align: center;
+    justify-content: center;
     font-size : 16px;
     font-weight: bold;
-    margin: 0 50px 0 0;
+    /* margin: 0 50px 0 0; */
 }
 
 #header > #gnb > li > a{
@@ -159,3 +159,52 @@ a{
     background: gray;
 }
 /* Project - End */
+
+
+/* 반응형 Media CSS*/
+
+.navbar_toggleBtn > i{
+    display: none;
+}
+
+@media screen and (max-width:768px){
+    
+    #header {
+        justify-content: flex-start;
+        top : 70px
+    }
+
+    #header > h1{
+        font-size: 14px;
+    }
+
+    .navbar_menu{
+        position: absolute;
+        left: 250px;
+        flex-direction: column;
+        opacity: 0;
+    }
+    
+    .navbar_menu > li {
+        margin: 20px 0 0 0;
+    }
+
+    .navbar_toggleBtn{
+        position: absolute;
+        left: 500px;
+        font-size: 28px;
+        color: #111;
+    }
+
+    .navbar_toggleBtn > i{
+        display: block;
+    }
+
+    .navbar_menu.active{
+        position: absolute;
+        opacity: 1;
+    }
+
+}
+
+/* 반응형 Media CSS*/
