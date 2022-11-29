@@ -11,6 +11,10 @@ a{
     text-decoration: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #wrap{
     width: 100%;
     height: 100%;
@@ -202,17 +206,31 @@ a{
 #home_left > h2{
     font-size: 28px;
 }
-
-
 /* Home - Start*/
+
 
 /* About - Start*/
 #about {
+    display: flex;
+    justify-content: space-around;
     width: 1400px;
-    height: 300px;
+    height: 720px;
     margin: 0 auto;
     background: blue;
 }
+
+#about_left{
+    width: 600px;
+    height: 720px;
+    background: silver;
+}
+
+#about_right{
+    width: 700px;
+    height: 720px;
+    background: yellow;
+}
+
 /* About - End*/
 
 /* Education - Start */
