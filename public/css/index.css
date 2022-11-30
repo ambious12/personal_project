@@ -15,6 +15,11 @@ html{
     scroll-behavior: smooth;
 }
 
+/* body{
+    margin: 0px;
+    background-image: url("./public/img/background");
+} */
+
 #wrap{
     width: 100%;
     height: 100%;
@@ -334,12 +339,11 @@ html{
 }
 
 #education > #edu_info > p{
-    display: inline-block;
-    width: 800px;
-    height: 200px;
-    font-size: 16px;
-    padding: 40px 0 0 30px;
+    font-size: 14px;
+    margin-top: 6px;
+    padding-left: 30px;
     box-sizing: border-box;
+    color: gray;
 }
 
 
@@ -420,11 +424,47 @@ html{
 
 /* contact - Start */
 #contact{
-    width: 1400px;
+    width: 100%;
     height: 300px;
     margin: 0 auto;
     background: gray;
+    padding: 50px;
+    box-sizing: border-box;
 }
+
+#contact > #contact_msg{
+    width: 1400px;
+    height: 100px;
+}
+
+#contact > #contact_msg > h1{
+    font-size: 38px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#contact > #contact_msg > p{
+    color: silver;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#contact > #contact_btm{
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact_info > ul > li {
+    margin-top: 15px;
+}
+
+#contact_info > ul > li > span{
+    margin-left: 15px;
+}
+
 /* contact - End */
 
 
