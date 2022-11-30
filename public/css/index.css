@@ -16,8 +16,14 @@ html{
 }
 
 /* body{
-    margin: 0px;
-    background-image: url("./public/img/background");
+    content: "";
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-image: url("/public/img/background.jpg");
 } */
 
 #wrap{
@@ -38,6 +44,7 @@ html{
     margin: 0 auto;
     align-items: center;
     justify-content:space-around;
+    /* background-image: url("/public/img/background.jpg"); */
 }
 
 #header > h1 {
@@ -233,14 +240,14 @@ html{
 
 #about_left > img{
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 100px;
-    width: 450px;
-    height: 500px;
+    width: 350px;
+    height: 400px;
     object-fit: contain;
     padding: 15px;
     box-sizing: border-box;
-    border: 1px solid #fff;
+    border: 1px solid darkgray;
 }
 
 #about_right{
