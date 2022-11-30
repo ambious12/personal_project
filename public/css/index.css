@@ -347,10 +347,74 @@ html{
 
 /* Skill - Start */
 #skill {
-    width: 1400px;
-    height: 300px;
+    width: 900px;
+    height: 800px;
     margin: 0 auto;
-    background: yellow;
+    /* background: yellow; */
+}
+
+#skill > .menu_info{
+    display: block;
+    width: 250px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 30px 0 0 30px;
+    box-sizing: border-box;
+    color: darkgray;
+}
+
+#skill > #skill_img {
+    width: 250px;
+    height: 300px;
+    float: left;
+}
+
+#skill > #skill_img > #skill_gnb{
+    width: 250px;
+    height: 400px;
+}
+
+#skill > #skill_img > #skill_gnb > li{
+    display: inline-block;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+#skill_gnb > li > figure{
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+#skill_gnb > li > figure > figcaption{
+    color: silver;
+}
+
+#skill > #skill_subs {
+    width: 600px;
+    height: 700px;
+    float: right;
+}
+
+#skill_subs > h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#skill_subs > #skill_subs_list > p{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#skill_subs > #skill_subs_list > span{
+    display: block;
+    color: silver;
+    font-size: 14px;
+    
 }
 /* Skill - End */
 
