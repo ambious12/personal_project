@@ -496,8 +496,10 @@ html{
 
     .navbar_menu{
         position: absolute;
-        left: 250px;
-        flex-direction: column;
+        background: #fff;
+        z-index: 1;
+        left: 100px;
+        top: 100px;
         opacity: 0;
     }
     

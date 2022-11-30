@@ -7,6 +7,6 @@ const education = document.querySelector("#education");
 
 
 toggleBtn.addEventListener("click",()=>{
-    menu.classList.toggle("active");
+    menu_btn.classList.toggle("active");
 })
 
