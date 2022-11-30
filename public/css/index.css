@@ -135,13 +135,13 @@ html{
 #home_right{
     width: 750px;
     height: 720px;
-    background: gray;
+    /* background: gray; */
 }
 
 #home_right > .home_subs{
     text-align: center;
     font-size: 18px;
-    margin-top: 150px;
+    margin-top: 200px;
     color: #111;
     font-weight: bold;
 }
@@ -149,20 +149,20 @@ html{
 #home_right > h3{
     text-align: center;
     color: #111;
-    margin-top: 25px;
+    margin-top: 100px;
     font-weight: 800;
     font-size: 40px;
 }
 
 /* Home typing 구현 CSS Start */
 #home_right > span{
-    font-size: 30px;
+    font-size: 34px;
     min-width: 20px;
     white-space: nowrap;
     margin: 0;
     position: absolute;
     color: transparent;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -198,7 +198,7 @@ html{
     display: flex;
     width: 150px;
     height: 720px;
-    background: silver;
+    /* background: silver; */
     justify-content: center;
     align-items: center;
 }
@@ -293,11 +293,56 @@ html{
 
 /* Education - Start */
 #education{
-    width: 1400px;
-    height: 300px;
+    width: 900px;
+    height: 700px;
     margin: 0 auto;
-    background: green;
+    /* background: green; */
 }
+
+#education > .menu_info{ /*Education*/
+    display: block;
+    width: 250px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 30px 0 0 30px;
+    box-sizing: border-box;
+    color: darkgray;
+}
+
+#education > #edu_info > h2{ /*국제경영학과*/
+    display: block;
+    width: 800px;
+    height: 50px;
+    font-size: 30px;
+    padding: 10px 0 0 30px;
+}
+
+#education > #edu_info > span{ /*기간이랑 학교명*/
+    display: block;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px 0 0 30px;
+    box-sizing: border-box;
+}
+
+#education > #edu_info > .edu_line {
+    width: 900px;
+    border-bottom: 1px solid #bbbbcb;
+    margin-bottom: 40px;
+}
+
+#education > #edu_info > p{
+    display: inline-block;
+    width: 800px;
+    height: 200px;
+    font-size: 16px;
+    padding: 40px 0 0 30px;
+    box-sizing: border-box;
+}
+
+
 /* Education - End */
 
 /* Skill - Start */
