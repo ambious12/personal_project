@@ -175,7 +175,7 @@ html{
     position: absolute;
     color: transparent;
     top: 75%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%,-50%);
 }
 
@@ -484,7 +484,7 @@ html{
 }
 
 @media screen and (max-width:768px){
-    
+
     #header {
         position: sticky;
         justify-content: flex-start;
