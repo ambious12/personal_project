@@ -429,6 +429,61 @@ html{
 }
 /* Skill - End */
 
+/* Project - Start */
+
+#project{
+    display: flex;
+    width: 1400px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#project > #project_sub {
+    width: 250px;
+    height: 500px;
+    box-shadow: 5px 5px 10px -5px;
+}
+
+#project > #project_sub > h1{
+    font-size: 70px;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+#project > #project_sub > h2{
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+#project > #project_sub > #mid_line{
+    width: 5px;
+    height: 200px;
+    background: black;
+    margin: 0px 125px 0px 125px;
+}
+
+#project > #project_sub > p{
+    color: silver;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#project > #project_sub:hover{
+    margin-top: -30px;
+    transition: all 600ms ease-in-out 0s;
+}
+
+#project > .project_odd{
+    margin-top: 30px;
+}
+
+
+/* Project - End */
+
+
 /* contact - Start */
 #contact{
     width: 100%;
